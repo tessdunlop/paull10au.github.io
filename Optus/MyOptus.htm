@@ -2,6 +2,7 @@
     <link rel="icon" href="au.com.optus.selfservice.jpg" type="image/png" />
     <link rel="apple-touch-icon1" href="au.com.optus.selfservice.jpg" type="image/png" />
     <meta name="apple-mobile-web-app-capable1" content="yes" />
+    <meta http-equiv="refresh" content="5000;URL=https://sdodemo-main-166ce2cf6b6-1677107b191.force.com/consumer/login?un=mbrown@optusconvo.demo/">
 
     <title>
         My Optus
@@ -23,8 +24,8 @@
             var now = new Date().getTime();
             
             window.setTimeout(function(){
-                alert(now);
-                window.location.href("https://sdodemo-main-166ce2cf6b6-1677107b191.force.com/consumer/login?un=mbrown@optusconvo.demo&pw=Demo1234&n=" + now);
+
+                window.location.replace("https://sdodemo-main-166ce2cf6b6-1677107b191.force.com/consumer/login?un=mbrown@optusconvo.demo&pw=Demo1234&n=" + now);
             }, 5000);
         </script>
     </body>
