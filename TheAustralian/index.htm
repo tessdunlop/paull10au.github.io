@@ -10,16 +10,22 @@
     </title>
     <head>
         <style>
-        .verticalhorizontal {
-            vertical-align: middle;
-        }
+        
+            .vertical-center {
+              margin: 0;
+              position: absolute;
+              top: 50%;
+              -ms-transform: translateY(-50%);
+              transform: translateY(-50%);
+            }
+
         </style>
     </head>
     
     <body style="background:#063550;">
-        <center class="verticalhorizontal">
-            <div style="padding-top:50%">
-                <img src="coverLogoMiddleT.png">
+        <center>
+            <div style="position:relative; height:100%; width:100%">
+                <img class="vertical-center" src="coverLogoMiddleT.png">
             </div>
         </center>
         
